@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ddi Test Suite">
+
+	<test name="ddi shipping Test Case">
+		<classes>
+			<class name="testCases.ShippingMethodTest">
+				<methods>
+					<include name="shipping"></include>
+					<include name="shippMethodFE"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>
